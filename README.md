@@ -1,2 +1,1 @@
-# terminal_linux
-Projeto Acadêmico 
+# terminal_linux 
