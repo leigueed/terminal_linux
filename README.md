@@ -46,7 +46,7 @@ Estudantes de Análise e Desenvolvimento de Sistema do Instituto Federal de Rond
 - *[João do Monte](https://github.com/joaomonteandrade)*
 - *[Eduarda Leigue](https://github.com/leigueed)*
 - *[Matheus Henrique](https://github.com/Modheus)*
-- *[Paulo Ximenes](https://github.com/usuario-colaborador2)*
+- *[Paulo Ximenes](https://github.com/PauloAlbqrq)*
 - *[Luiz Guilherme](https://github.com/usuario-colaborador2)*
 
 ## Referências
