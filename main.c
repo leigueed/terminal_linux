@@ -4,13 +4,13 @@
 #include <string.h>
 #include <sys/wait.h>
 
-#define MAX_LINE 80 /* O tamanho máximo do comando */
+//tamanho máximo de comando
+#define MAX_LINE 80
 #define MAX_HISTORY 10
 
-
-char *args[MAX_LINE / 2 + 1]; /* argumentos do comando */
-char input[MAX_LINE]; /* bagulho q o usuario escrever */
-int should_run = 1; /* flag (bandeira) para determinar quando encerrar o programa */
+char *args[MAX_LINE / 2 + 1]; //argumentos do comando
+char input[MAX_LINE]; //bagulho q o usuario escrever
+int should_run = 1; //flag (bandeira) para determinar quando encerrar o programa
 int background = 0;
 
 char *history[MAX_HISTORY];
@@ -28,14 +28,12 @@ void add_to_history(char *command) {
         history[MAX_HISTORY - 1] = strdup(command);
     }
 }
-
-//função paara printar o histórico
+//função para printar o histórico
 void print_history() {
     for (int i = 0; i < history_count; i++) {
         printf("%d %s\n", i + 1, history[i]);
     }
 }
-
 //executa o comando do histórico na posição da variavel n
 void execute_history_command(int n) {
     if (n > 0 && n <= history_count) {
@@ -45,17 +43,15 @@ void execute_history_command(int n) {
         printf("Nenhum comando correspondente no histórico\n");
     }
 }
-
 //recebe o que o usuário escreveu e executa o comando
 void execute_command(char* in){
-    // Remove a nova linha no final da string
-        in[strcspn(in, "\n")] = 0;
-
-        //se o usuário digitar "history" vai ser printado o histórico completo
-        if (strcmp(in, "history") == 0) {
-            print_history();
-            return;
-        }
+//remove a nova linha no final da string
+    in[strcspn(in, "\n")] = 0;
+    //se o usuário digitar "history" vai ser printado o histórico completo
+    if (strcmp(in, "history") == 0) {
+        print_history();
+        return;
+    }
 
         // Verifica se o comando é 'exit' para encerrar o shell
         if (strcmp(in, "exit") == 0) {
