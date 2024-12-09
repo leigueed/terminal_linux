@@ -43,7 +43,7 @@ foobar.singularize('phenomena')
 
 <div align="center" style="display: block;">
   
-Estudantes de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
+Este projeto foi desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
 
 <em>[Eduarda Leigue](https://github.com/leigueed)</em> -
 <em>[João do Monte](https://github.com/joaomonteandrade)</em> -
