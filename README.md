@@ -1,8 +1,8 @@
 # Interface de Shell em C 📟
-
+<div align="center" style="display: block;">
+   
 Projeto acadêmico que implementa uma interface de shell básica em linguagem C que aceita comandos do usuário, criando um processo separado para executar cada comando. Este projeto teve como escolhido o sistema *Linux* para executá-lo.
 
-<div align="center" style="display: block;">
    <img align= "center" src="programing.gif" width="600"/>
 </div>
 
@@ -82,5 +82,4 @@ Este projeto foi desenvolvido por estudantes do curso de Análise e Desenvolvime
 <em>[Paulo Ximenes](https://github.com/PauloAlbqrq)</em> -
 <em>[Luiz Guilherme](https://github.com/usuario-colaborador2)</em>
 
-<img align= "center" src="programing.gif" width="600"/>
 </div>
