@@ -42,8 +42,8 @@ foobar.singularize('phenomena')
 ## Colaboradores 👨🏻‍💻
 
 <div align="center" style="display: block;">
+  
 Estudantes de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
-<br>
   
 <em>[João do Monte](https://github.com/joaomonteandrade)</em> /
 <em>[Eduarda Leigue](https://github.com/leigueed)</em> /
