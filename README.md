@@ -74,7 +74,7 @@ arquivo1.txt arquivo2.txt
 
 <div align="center" style="display: block;">
   
-Este projeto foi desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
+Desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
 
 <em>[Eduarda Leigue](https://github.com/leigueed)</em> -
 <em>[João do Monte](https://github.com/joaomonteandrade)</em> -
