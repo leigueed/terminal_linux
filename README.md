@@ -22,7 +22,7 @@ Projeto acadêmico que implementa uma interface de shell básica em linguagem C 
     `!!` = executa o último comando.  
     `!N` = executa o comando correspondente ao índice **N** no histórico.
 
-## Estrutura do Código 
+## 📌 Estrutura do Código 
 O projeto está organizado em uma única estrutura de código com funções específicas para cada tarefa:  
 
 1. **Função `main`**  
@@ -43,7 +43,7 @@ O projeto está organizado em uma única estrutura de código com funções espe
 5. **Função `execute_history_command`**  
    - Executa comandos previamente armazenados no histórico com base no índice especificado.
 
-## Exemplo de Uso
+## 📌 Exemplo de Uso
 **Comandos Suportados**
 
 - Comandos básicos do Linux, como `ls`, `pwd`, `mkdir`, etc.
