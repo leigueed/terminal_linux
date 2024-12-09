@@ -2,42 +2,68 @@
 
 Projeto acadêmico que implementa uma interface de shell básica em linguagem C que aceita comandos do usuário, criando um processo separado para executar cada comando. Este projeto teve como escolhido o sistema *Linux* para executá-lo.
 
-## Descrição:
+## 📌 Funcionalidades  
 
-O projeto é dividido em duas partes principais:
+**Execução de Comandos**:
+   
+  - Aceita comandos do usuário e os executa usando `fork()` e `execvp()`.  
+  - Permite execução em segundo plano ao adicionar `&` ao final do comando.  
 
-1. **Criação de Processos Filhos e Execução de Comandos**: A interface de shell recebe comandos do usuário, criando um processo-filho para executá-los usando `fork()` e `execvp()`, com os argumentos armazenados em um *array* de strings.
+**Histórico de Comandos**:
+  - Armazena até 10 comandos recentes.  
+  - Comandos podem ser acessados por:
+    
+    `history` = exibe o histórico completo.  
+    `!!` = executa o último comando.  
+    `!N` = executa o comando correspondente ao índice **N** no histórico.
 
-2. **Implementação do Histórico de Comandos**: O shell armazena até 10 comandos recentes, exibíveis com `history`. Comandos anteriores podem ser executados usando `!!` (último comando) ou `!N` (comando específico).
+## Estrutura do Código 
+O projeto está organizado em uma única estrutura de código com funções específicas para cada tarefa:  
 
-## Estrutura do Projeto
+1. **Função `main`**  
+   - Gerencia o loop principal do shell.  
+   - Lê entradas do usuário e as encaminha para execução.  
 
-## Execução
+2. **Função `execute_command`**  
+   - Processa e executa o comando inserido pelo usuário.  
+   - Divide o comando em tokens, cria processos-filhos e chama `execvp`.  
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+3. **Função `add_to_history`**  
+   - Adiciona comandos ao histórico.  
+   - Implementa um sistema de substituição quando o limite de 10 comandos é alcançado.  
 
-```bash
-pip install foobar
-```
+4. **Função `print_history`**  
+   - Exibe os últimos 10 comandos armazenados no histórico.  
+
+5. **Função `execute_history_command`**  
+   - Executa comandos previamente armazenados no histórico com base no índice especificado.
 
 ## Exemplo de Uso
+**Comandos Suportados**
 
-```python
-import foobar
+- Comandos básicos do Linux, como `ls`, `pwd`, `mkdir`, etc.
+- Histórico e execução:
+  
+  `history`: Exibe os 10 últimos comandos.
+  
+  `!!`: Reexecuta o último comando.
+  
+  `!3`: Executa o terceiro comando do histórico.
 
-# returns 'words'
-foobar.pluralize('word')
+**Interação com o Shell**
+```bash
+osh> ls  
+arquivo1.txt arquivo2.txt  
 
-# returns 'geese'
-foobar.pluralize('goose')
+osh> mkdir pasta_teste  
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+osh> history  
+1 ls  
+2 mkdir pasta_teste  
+
+osh> !1  
+arquivo1.txt arquivo2.txt  
 ```
-
-## Comandos Implementados
-
-## Tratamento de Erros
 
 ## Colaboradores 👨🏻‍💻
 
