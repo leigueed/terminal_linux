@@ -50,4 +50,6 @@ Estudantes de Análise e Desenvolvimento de Sistema do Instituto Federal de Rond
 <em>[Paulo Ximenes](https://github.com/PauloAlbqrq)</em> /
 <em>[Luiz Guilherme](https://github.com/usuario-colaborador2)</em>
 
+<br>
+<img align= "center" src="programing.gif" width="600"/>
 </div>
