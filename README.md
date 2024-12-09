@@ -2,6 +2,10 @@
 
 Projeto acadêmico que implementa uma interface de shell básica em linguagem C que aceita comandos do usuário, criando um processo separado para executar cada comando. Este projeto teve como escolhido o sistema *Linux* para executá-lo.
 
+<div align="center" style="display: block;">
+   <img align= "center" src="programing.gif" width="600"/>
+</div>
+
 ## 📌 Funcionalidades  
 
 **Execução de Comandos**:
