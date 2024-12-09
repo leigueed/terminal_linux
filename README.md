@@ -39,16 +39,15 @@ foobar.singularize('phenomena')
 
 ## Tratamento de Erros
 
-## Colaboradores
+## Colaboradores 👨🏻‍💻
 
+<div align="center" style="display: block;">
 Estudantes de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
 
-- *[João do Monte](https://github.com/joaomonteandrade)*
-- *[Eduarda Leigue](https://github.com/leigueed)*
-- *[Matheus Henrique](https://github.com/Modheus)*
-- *[Paulo Ximenes](https://github.com/PauloAlbqrq)*
-- *[Luiz Guilherme](https://github.com/usuario-colaborador2)*
+<em>[João do Monte](https://github.com/joaomonteandrade)</em> /
+<em>[Eduarda Leigue](https://github.com/leigueed)</em> /
+<em>[Matheus Henrique](https://github.com/Modheus)</em> /
+<em>[Paulo Ximenes](https://github.com/PauloAlbqrq)</em> /
+<em>[Luiz Guilherme](https://github.com/usuario-colaborador2)</em>
 
-## Referências
-
-Silberschatz, A., Galvin, P. B., & Gagne, G. (2009). Operating System Concepts (9ª ed.).
+</div>
