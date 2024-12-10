@@ -8,7 +8,7 @@ Projeto acadêmico que implementa uma interface de shell simples programado em `
 
 ## Estrutura do Código
 
-O código está organizado em funções específicas:
+Nesta seção, mostraremos o código e nele explicamos a estrutura e as principais funções do shell, como histórico de comandos, execução de processos e controle de segundo plano.
 
 `Bibliotecas`:
 ```c
