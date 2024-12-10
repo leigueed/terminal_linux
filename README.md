@@ -19,7 +19,7 @@ Nesta seção, mostraremos o código e nele explicamos a estrutura e as principa
 #include <sys/wait.h>
 ```
 
-`Definições Constantes`:
+`Definições de constantes`:
 ```c
 // O tamanho máximo de uma linha de comando que o shell pode processar.
 #define MAX_LINE 80
@@ -27,7 +27,7 @@ Nesta seção, mostraremos o código e nele explicamos a estrutura e as principa
 #define MAX_HISTORY 10
 ```
 
-`Declarações de Variáveis`:
+`Declarações de variáveis`:
 ```c
 char *args[MAX_LINE / 2 + 1]; 
 char input[MAX_LINE]; // Define o número máximo de comandos armazenados no histórico.
@@ -38,7 +38,7 @@ char *history[MAX_HISTORY];
 int history_count = 0; // Um contador que conta quantos comandos foram armazenados no histórico.
 ```
 
-`Declarações de Funções`:
+`Declarações de funções`:
 ```c
 void execute_command(char* in);
 void execute_history_command(int n);
