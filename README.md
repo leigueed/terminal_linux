@@ -186,8 +186,6 @@ void execute_history_command(int n) {
 ```
 
 ## Colaboradores 👨🏻‍💻
-
-<div align="center" style="display: block;">
   
 Desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
 
@@ -197,5 +195,3 @@ Desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do
 <br>
 <em>[Paulo Ximenes](https://github.com/PauloAlbqrq)</em> -
 <em>[Luiz Guilherme](https://github.com/usuario-colaborador2)</em>
-
-</div>
