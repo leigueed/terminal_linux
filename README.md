@@ -187,7 +187,7 @@ void execute_history_command(int n) {
 
 ## Colaboradores 👨🏻‍💻
   
-Desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
+Este projeto acadêmico é desenvolvido por estudantes do Curso Superior de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
 
 <em>[Eduarda Leigue](https://github.com/leigueed)</em> -
 <em>[João do Monte](https://github.com/joaomonteandrade)</em> -
