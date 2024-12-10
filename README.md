@@ -185,3 +185,18 @@ void execute_history_command(int n) {
     }
 }
 ```
+
+## Colaboradores 👨🏻‍💻
+
+<div align="center" style="display: block;">
+  
+Desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
+
+<em>[Eduarda Leigue](https://github.com/leigueed)</em> -
+<em>[João do Monte](https://github.com/joaomonteandrade)</em> -
+<em>[Matheus Henrique](https://github.com/Modheus)</em>
+<br>
+<em>[Paulo Ximenes](https://github.com/PauloAlbqrq)</em> -
+<em>[Luiz Guilherme](https://github.com/usuario-colaborador2)</em>
+
+</div>
