@@ -46,7 +46,7 @@ void execute_history_command(int n);
 
 `Main`:
 ```c
-// O programa entra em um loop enquanto a "should_run" for verdadeira.
+// O programa entra em um loop enquanto a "should_run" for verdadeiro.
 // Ele exibe o "osh>", lê a entrada do usuário e chama a função "execute_command" para processar e executar o comando inserido.
 
 int main(void) {
@@ -186,7 +186,7 @@ void execute_history_command(int n) {
 ```
 
 ## Colaboradores 👨🏻‍💻
-Este projeto acadêmico é desenvolvido por estudantes do Curso Superior de Análise e Desenvolvimento de Sistema do Instituto Federal de Rondônia (IFRO):
+Este projeto acadêmico é desenvolvido por estudantes do Curso Superior de Tecnologia Análise e Desenvolvimento de Sistema do IFRO:
 
 <em>[Eduarda Leigue](https://github.com/leigueed)</em> -
 <em>[João do Monte](https://github.com/joaomonteandrade)</em> -
