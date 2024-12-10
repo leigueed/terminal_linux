@@ -44,7 +44,7 @@ void execute_command(char* in);
 void execute_history_command(int n);
 ```
 
-`Main`:
+### Função **`main`**:
 ```c
 // O programa entra em um loop enquanto a "should_run" for verdadeiro.
 // Ele exibe o "osh>", lê a entrada do usuário e chama a função "execute_command" para processar e executar o comando inserido.
@@ -62,8 +62,17 @@ int main(void) {
     return 0;
 }
 ```
+    
+### Função **`execute_command`**:
 
-**`Execute_command`**:
+Este shell suporta os principais comandos:
+
+1. Comandos padrão do Linux.
+2. Histórico de comandos com `history`.
+3. Reexecução de comandos com `!!` e `!n`.
+4. Execução em segundo plano com `&`.
+5. Finalização com `exit`.
+   
 ```c
 // Função principal que executa comandos escritos pelo usuário.
 
@@ -140,7 +149,7 @@ void execute_command(char* in){
 }
 ```
 
-**`Add_to_history`**:
+### Função **`add_to_history`**:
 ```c
 // Função para adicionar um comando na lista do histórico.
 
@@ -159,7 +168,7 @@ void add_to_history(char *command) {
 }
 ```
 
-**`Print_history`**:
+### Função **`print_history`**:
 ```c
 // Função para exibir os comandos armazenados no histórico.
 
@@ -170,7 +179,7 @@ void print_history() {
 }
 ```
 
-**`Execute_history_command`**:
+### Função **`execute_history_command`**:
 ```c
 // Função que executa um comando do histórico baseado no número fornecido (n), referente a um comando anterior no histórico.
 // Se o (n) não for válido, é exibido uma mensagem de erro.
