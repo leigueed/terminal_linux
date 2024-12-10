@@ -44,7 +44,7 @@ void execute_command(char* in);
 void execute_history_command(int n);
 ```
 
-`main`:
+`Main`:
 ```c
 // O programa entra em um loop enquanto a "should_run" for verdadeira.
 // Ele exibe o "osh>", lê a entrada do usuário e chama a função "execute_command" para processar e executar o comando inserido.
@@ -63,7 +63,7 @@ int main(void) {
 }
 ```
 
-**`execute_command`**:
+**`Execute_command`**:
 ```c
 // Função principal que executa comandos escritos pelo usuário.
 
@@ -140,7 +140,7 @@ void execute_command(char* in){
 }
 ```
 
-**`add_to_history`**:
+**`Add_to_history`**:
 ```c
 // Função para adicionar um comando na lista do histórico.
 
@@ -159,7 +159,7 @@ void add_to_history(char *command) {
 }
 ```
 
-**`print_history`**:
+**`Print_history`**:
 ```c
 // Função para exibir os comandos armazenados no histórico.
 
@@ -170,7 +170,7 @@ void print_history() {
 }
 ```
 
-**`execute_history_command`**:
+**`Execute_history_command`**:
 ```c
 // Função que executa um comando do histórico baseado no número fornecido (n), referente a um comando anterior no histórico.
 // Se o (n) não for válido, é exibido uma mensagem de erro.
