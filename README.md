@@ -11,19 +11,25 @@ Projeto acadêmico que implementa uma interface de shell básica em linguagem C 
 
 O código está organizado em funções específicas:
 
-**`importação de bibliotecas e declarações/definição de variáveis`**:
+`Bibliotecas`:
 ```c
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/wait.h>
+```
 
+`Definições Constantes`:
+```c
 // O tamanho máximo de uma linha de comando que o shell pode processar.
 #define MAX_LINE 80
 // Define o número máximo de comandos armazenados no histórico.
 #define MAX_HISTORY 10
+```
 
+`Declarações de Variáveis`:
+```c
 char *args[MAX_LINE / 2 + 1]; 
 char input[MAX_LINE]; // Define o número máximo de comandos armazenados no histórico.
 int should_run = 1; // Flag (bandeira) para determinar quando encerrar o programa.
@@ -31,12 +37,15 @@ int background = 0; // Indica se o comando deve ser executado em segundo plano.
 
 char *history[MAX_HISTORY];
 int history_count = 0; // Um contador que conta quantos comandos foram armazenados no histórico.
+```
 
+`Declarações de Funções`:
+```c
 void execute_command(char* in);
 void execute_history_command(int n);
 ```
 
-**`main`**:
+`main`:
 ```c
 // O programa entra em um loop enquanto a "should_run" for verdadeira.
 // Ele exibe o "osh>", lê a entrada do usuário e chama a função "execute_command" para processar e executar o comando inserido.
