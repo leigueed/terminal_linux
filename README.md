@@ -1,7 +1,7 @@
   
 # Interface de Shell em C 📟
-   
-Projeto acadêmico que implementa uma interface de shell básica em linguagem C que aceita comandos do usuário, criando um processo separado para executar cada comando. Este projeto teve como escolhido o sistema *Linux* para executá-lo.
+Projeto acadêmico que implementa uma interface de shell simples utilizando a `linguagem C`. O programa permite que o usuário insira comandos, gerando um processo separado para executar cada um deles. Desenvolvido para o ambiente `Linux`, o shell suporta funcionalidades como execução de comandos em segundo plano, histórico de comandos e reexecução de comandos anteriores.
+
 <div align="center" style="display: block;">
    <img align= "center" src="programing.gif" width="600"/>
 </div>
