@@ -34,7 +34,7 @@ void add_to_history(char *command) {
 }
 // Função paara exibir os comandos armazenados no histórico.
 void print_history() {
-    for (int i = 0; i < history_count; i++) {
+    for (int i = history_count - 1; i >= 0; i--) {
         printf("%d %s\n", i + 1, history[i]);
     }
 }
@@ -84,7 +84,6 @@ void execute_command(char* in){
             background = 1;
             input[strlen(in) - 1] = 0; // Remove o '&' da string.
         }
-    
         // Adiciona o comando ao histórico.
         add_to_history(in);
 
@@ -105,7 +104,6 @@ void execute_command(char* in){
             perror("Fork falhou");
             exit(1);
         }
-    
         // Se for o processo filho, executa o comando com "execvp()".
         if (pid == 0) {
             if (execvp(args[0], args) == -1) {
