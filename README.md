@@ -149,7 +149,7 @@ void execute_command(char* in){
 }
 ```
 
-### Função **`add_to_history`**:
+### Função **`Gerenciamento do histórico`**:
 ```c
 // Declaração
 char *history[MAX_HISTORY];
@@ -160,11 +160,6 @@ int history_count = 0; // Um contador que conta quantos comandos foram armazenad
 
 // Adiciona o comando ao histórico.
         add_to_history(in);
-
-// Se o usuário digitar "history" vai ser imprimido o histórico completo.
-        if (strcmp(in, "history") == 0) {
-            print_history();
-            return;
 
 // Função para adicionar um comando na lista do histórico.
 void add_to_history(char *command) {
@@ -184,7 +179,11 @@ void add_to_history(char *command) {
 
 ### Função **`print_history`**:
 ```c
-// Função para exibir os comandos armazenados no histórico.
+
+if (strcmp(in, "history") == 0) {
+    print_history();
+    return;
+}
 
 void print_history() {
     for (int i = 0; i < history_count; i++) {
